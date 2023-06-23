@@ -24,7 +24,7 @@ function Property(
   this.bedrooms = bedrooms;
   this.garden = garden;
   this.features = features;
-  this.imgUrl = `/images/${imgUrl}`;
+  this.imgUrl = `./images/${imgUrl}`;
   this.price = price;
   this.render();
 }
