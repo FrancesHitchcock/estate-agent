@@ -80,7 +80,7 @@ const costaHouse = new Property(
   true,
   ["Mediterranean views", "private pool", "secluded property"],
   "costa-house.png",
-  1200000
+  1300000
 );
 
 // console.log(woodLane23);
