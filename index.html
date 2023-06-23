@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estate Agent</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Frannie's Real Estate</h1>
+    </header>
+    <main>
+      <section class="property-section">
+        <h2>Properties For Sale</h2>
+        <div id="properties-list"></div>
+      </section>
+      <section>
+        <form id="property-form">
+          <h2>Add new property</h2>
+          <label for="address">Property address: </label
+          ><input
+            type="text"
+            name="address"
+            id="address"
+            placeholder="property address"
+          /><br />
+          <label for="location">Property location: </label
+          ><input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="property location"
+          /><br />
+          <label for="bedrooms">Number of bedrooms: </label
+          ><input
+            type="number"
+            name="bedrooms"
+            id="bedrooms"
+            placeholder="0"
+          /><br />
+          <label for="garden">Has garden: </label
+          ><input type="checkbox" name="garden" /><br />
+          <label for="features">Features (comma-separated list)</label>
+          <input
+            type="text"
+            name="features"
+            id="features"
+            placeholder="features"
+          /><br />
+          <label for="price">Asking price</label>
+          <input type="number" name="price" id="price" step="1000" /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>Frannie's Real Estate</footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
